@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Password generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;400;500;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="main">
+        <h1 id="title">Gere uma <br><span>senha aleatoria</span></h1>
+        <p>Nunca mais use uma senha insegura.</p>
+        <!-- <div class="settings"><p>Tamanho da senha:</p><input type="range" minlength="7" maxlength="20" step="1" value="15" id="password-lenght"></div> -->
+        <button id="generate-passwords" onclick="generatePasswords()">Gerar senhas</button>
+        <div class="line"></div>
+        <div class="containers-btn-password">
+            <button id="password-btn1" class="password-btn" onclick="copyPassword1()"></button>
+            <button id="password-btn2" class="password-btn" onclick="copyPassword2()"></button>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
